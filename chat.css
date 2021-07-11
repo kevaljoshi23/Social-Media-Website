@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+.navbar{
+    background: #7A89A9;
+    width: 100%;
+    height: 70px;
+}
+.navbar .home{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    float: left;
+    font-family: cursive;
+    font-size: 25px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: None;
+    border: None;
+}
+.navbar .btn-signout{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    float: right;
+    font-family: cursive;
+    font-size: 25px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: None;
+    border: None;
+    text-decoration-line: none;
+}
+.display-4{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.container .friendlist{
+    float: left;
+    height: 650px;
+    width: 23%;
+    background: #F5F7FB;
+}
+.container{
+    display: block;
+    width: 100%;
+}
+.container #message{
+    background: #ffffff;
+    width: 77%;
+    float: right;
+    background: #ffffff;
+}
+.outer-type .type form{
+    width: 100%;
+    bottom: 0px;
+}
+
+.acc button{
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    background: #F5F7FB;
+    border: none;
+    color: #5F686C;
+    font-family: monospace;
+}
+.acc button:hover{
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    background: #E6EBF5;
+    border: none;
+    color: black;
+}
+span{
+    font-size: 20px;
+    font-family: monospace;
+    color: #212121;
+    margin: 0px 10px 0px 10px;
+}
+.total .name{
+    font-size: 30px;
+}
+.msg1{
+    margin: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #F5F7FB;
+    color: black;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 0px;
+    font-family: cursive;
+    font-size: 10px;
+}
+.msg2{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: #7269EF;
+    color: #FEFEFF;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 30px;
+    font-family: cursive;
+    font-size: 10px;
+}
+.container #message{
+    overflow-x: hidden;
+    height: 81vh;
+}
+.type form{
+    background: #E6EBF5;
+}
+.enter-mssg{
+    padding: 10px;
+    font-family: cursive;
+    font-size: 16px;
+    height: 40px;
+    width: 65%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn-send{
+    font-family: cursive;
+    font-size: 16px;
+    height: 35px;
+    width: 65px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+    background: #7269EF;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
